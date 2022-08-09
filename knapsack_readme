@@ -1,0 +1,26 @@
+solves knapsack problem
+
+input template:
+
+[amount of items] [inventory volume]
+[1_item value] [1_item mass]
+[2_item value] [2_item mass]
+...
+[x_item value] [x_item mass]
+
+output template:
+[number of chosen items] [sum of max possible value]
+[chosen 1_item] [chosen 2_item] ... [chosen itemX]
+
+input example:
+6 20
+30 3
+50 10 
+80 8
+20 1
+40 6
+60 6
+
+output example:
+4 190
+1 3 4 6
