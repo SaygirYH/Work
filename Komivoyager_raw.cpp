@@ -8,8 +8,8 @@ int main()
     int pw = 2;        //because of pow() func
     int minimum=999999999,calc,hold,buf,flag,last,g
         ,sum=0;
-    int mas[100][2]; //pairs of X and Y
-    int ban[100];    //Banned pair, volume should be similar as mas[]
+    int mas[85905][2]; //pairs of X and Y
+    int ban[85905];    //Banned pair, volume should be similar as mas[]
     cin >> N;
 
    // int x1,x2,y1,y2;
