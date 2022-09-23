@@ -6,9 +6,9 @@ int main()
 {
     int N;             //number of pairs
     int pw = 2;        //because of pow() func
-    int minimum=999999999,calc,hold,buf,flag,last,g
-        ,sum=0;
-    int mas[85905][2]; //pairs of X and Y
+    int minimum=999999999,hold,flag,last,g;
+    double buf,calc,sum=0;
+    double mas[85905][2]; //pairs of X and Y
     int ban[85905];    //Banned pair, volume should be similar as mas[]
     cin >> N;
 
