@@ -2,10 +2,9 @@
 
 using namespace std;
 
-//typedef long double ld;
 long double x, y;
-int i, n, s, sum = 0, buf,
-             res = 0;
+int i, n, s, g=1, sum = 0, buf;
+double res = 0;
 int di0, dj0, dij;
 int m, mcap, wayscnt;
 
@@ -47,7 +46,7 @@ void join(int u, int v, int mcap) {
     if (ways[u].ranc == ways[v].ranc) ways[u].ranc++;
 }
 
-int tsp(vector<pair<int, int>> & nodes) {
+double tsp(vector<pair<int, int>> & nodes) {
     int n = nodes.size();
     vector<long double> x(n);
     vector<long double> y(n);
@@ -119,6 +118,9 @@ int main() {
         res += tsp(tnodes);
         checked[root] = true;
     }
-    cout << res << '\n';
-    cin>> s;
+    cout<<"= = = = = = = = = = =  main result = "<< res <<endl;
+    while(g!=0){cin>> g;}
+    cout << "done";
+    return 0;
 }
+
