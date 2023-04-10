@@ -1,5 +1,4 @@
-# Work
-Few study tasks
+# current task solutions
 
 
 GraphColoring.cpp 
