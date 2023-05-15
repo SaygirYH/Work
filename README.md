@@ -1,11 +1,9 @@
-# current task solutions
+# 2023 TASKS:
 
 
-GraphColoring.cpp 
+Graph Coloring
 
-Knapsack.cpp
+Knapsack
 
-Komivoyager_raw.cpp
-
-tsp.cpp
+TSP
 
